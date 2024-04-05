@@ -1,0 +1,587 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <script src="https://rork-lab.github.io/site/js/theme.min.js" integrity="sha384-pb++s6uBRKaQv+iAXpgA/H3IlpLZdO14tTwuCI7uXmz4aaZdByoCcM+6BhynMq/1"></script>
+  <link rel="stylesheet" href="https://rork-lab.github.io/site/abridge.css?h=8056349db35d5af56678" />
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="base" content="https://rork-lab.github.io/site" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="theme-color" content="#333333" />
+  <meta name="msapplication-TileColor" content="#333333" />
+  <link rel="manifest" href="https://rork-lab.github.io/site/manifest.min.json" />
+  <link rel="mask-icon" href="https://rork-lab.github.io/site/safari-pinned-tab.svg" color="#ff9900" />
+  <link rel="icon" type="image/svg+xml" href="https://rork-lab.github.io/site/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://rork-lab.github.io/site/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="https://rork-lab.github.io/site/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="https://rork-lab.github.io/site/favicon-16x16.png" />
+  <link rel="alternate" type="application/atom+xml" title="Abridge Atom/RSS Feed" href="https://rork-lab.github.io/site/fr/atom.xml" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <title>Abridge Zola Thème | Abridge</title>
+  <meta name="author" content="Rork" />
+  <meta name="copyright" content="Abridge" />
+  <meta name="description" content="Abridge est un thème Zola rapide et léger utilisant du HTML sémantique, du CSS léger de classe abridge.css et No Mandatory JS." />
+  <link rel="canonical" href="https://rork-lab.github.io/site/fr/overview-abridge/" />
+  <meta name="keywords" content="Abridge, Abridge.css, Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" />
+  <meta name="google-site-verification" content="Your Google Site verification code." />
+  <meta name="msvalidate.01" content="Your Bing Site verification code." />
+  <meta property="og:url" content="https://rork-lab.github.io/site/fr/overview-abridge/" />
+  <meta name="twitter:url" content="https://rork-lab.github.io/site/fr/overview-abridge/" />
+  <meta property="og:description" content="Abridge est un thème Zola rapide et léger utilisant du HTML sémantique, du CSS léger de classe abridge.css et No Mandatory JS." />
+  <meta name="twitter:description" content="Abridge est un thème Zola rapide et léger utilisant du HTML sémantique, du CSS léger de classe abridge.css et No Mandatory JS." />
+  <meta property="og:title" content="Abridge Zola Thème | Abridge" />
+  <meta name="twitter:title" content="Abridge Zola Thème | Abridge" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://rork-lab.github.io/site/banner.png" />
+  <meta property="og:image" content="https://rork-lab.github.io/site/banner.png" />
+  <meta property="og:site_name" content="Abridge" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:updated_time" content="2023-07-21" />
+  <meta name="twitter:site" content="@your-user-name" />
+  <meta name="twitter:creator" content="@your-user-name" />
+  <script defer src="https://rork-lab.github.io/site/js/abridge.min.js?h=1a12cf684ae4ed40434f" integrity="sha384-ZsreuwU2rKTp7gC4bTf5sYz+3AjMym99XDa/B5wa08fCzLVVX+NDaTsTeyLXseDG"></script>
+  <script defer src="https://rork-lab.github.io/site/js/lunr.stemmer.support.min.js" integrity="sha384-f0MKdC/9ZSGTpDiuWusC0SbLXNCBp6NgzDZpjR/4UdHXAQBqvTEKyinnsa1wQ7oA"></script>
+  <script defer src="https://rork-lab.github.io/site/js/lunr.fr.min.js" integrity="sha384-1HGSEcRn5f1GEUN1Ef/8A0uUQQI1YZuH89+bhgj29JIOV8uNd6YTI0FwWnrOpEkD"></script>
+  <noscript><link rel="stylesheet" href="https://rork-lab.github.io/site/nojs.css" /></noscript>
+</head>
+<body>
+  <header>
+    <nav>
+      <div><h1><a href="https://rork-lab.github.io/site/fr/" title="Abridge"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#f90" viewBox="0 0 96 96" width="28" height="28"><path stroke-width="14" d="M14 99 46 7h4l32 92"/><path stroke-width="9" d="M-3 82c43-26 59-26 102 0"/><path stroke-linecap="round" stroke-width="1.5" d="M94 72v7m-5-9.8v7m-5-9.8v7.1M79 64v7M63 57.7v7m-5-8.2v7m-5-7.8v7m-5-7.2v7m-5-6.7v7m-5-6.3v7m-5-5.8v7M17 64v7m-5-4.6v7m-5-4.2v7M2 72v7"/></svg>bridge</a></h1></div>
+      <div>
+
+        <div>
+          <ul><li><a class="s110" href="https://rork-lab.github.io/site/fr/about/"> Sur </a></li><li><a class="s110" href="https://rork-lab.github.io/site/fr/archive/"> Articles </a></li><li><a class="s110" href="https://rork-lab.github.io/site/fr/tags/"> Mots-clés </a></li>
+            <li><div class="dropdown"><i class="svgs world" type="reset"></i>
+                <div class="dropdown-content">
+                <span>Français</span><a href="https://rork-lab.github.io/site/overview-abridge/">English</a></div>
+            </div></li><li><i type="reset" id="mode" class="js svgs adjust"></i></ul>
+        </div>
+
+        <div>
+          <div>
+            <form autocomplete=off class="js" name="goSearch" id="searchbox">
+              <div class="searchd">
+                <input id="searchinput" type="text" placeholder="Recherche" title="Search" />
+                <button type="submit" title="Search" class="svgs search"></button>
+              </div>
+              <div class="results"><div id="suggestions"></div></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h1><a href="https://rork-lab.github.io/site/fr/overview-abridge/">Abridge Zola Thème</a></h1>
+
+      <span class="s95"> Rork <span class="rpad"></span> mai 17, 2022 <span class="rpad"></span>Modifié: juillet 21, 2023 <span class="rpad"></span> #<a href="https://rork-lab.github.io/site/fr/tags/features/">Features</a>  #<a href="https://rork-lab.github.io/site/fr/tags/config/">Config</a> </span>
+
+    
+        <div class="block">
+      <div class="blockdiv">
+        <a class="b s150" href="https://rork-lab.github.io/site/fr/tags/features/">Features (Series)</a>
+        <ol>
+            <li><a href="https://rork-lab.github.io/site/fr/overview-showdata/">Code court Showdata</a></li>
+            <li><a href="https://rork-lab.github.io/site/fr/overview-math/">Notation mathématiques</a></li>
+            <li><a href="https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-streamable/">Streamable intégrées</a></li>
+            <li><a href="https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-vimeo/">Vimeo intégrées</a></li>
+            <li><a href="https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-youtube/">Youtube intégrées</a></li>
+            <li><a href="https://rork-lab.github.io/site/fr/overview-rich-content/">Contenu riche</a></li>
+            <li><a href="https://rork-lab.github.io/site/fr/overview-images/">Codes courts d&#x27;image</a></li>
+            <li><a href="https://rork-lab.github.io/site/fr/overview-markdown-and-style/">Markdown et Style</a></li>
+            <li><a href="https://rork-lab.github.io/site/fr/overview-code-blocks/">Blocs de code et thème</a></li>
+            <li><a class="scur" href="https://rork-lab.github.io/site/fr/overview-abridge/">Abridge Zola Thème</a></li> 
+          
+        </ol>
+      </div>
+    </div>
+
+
+<p>Un thème <a rel="noopener" target="_blank" href="https://getzola.org">Zola</a> rapide, léger et moderne utilisant <a rel="noopener" target="_blank" href="https://github.com/Jieiku/abridge.css">abridge.css</a> (un framework HTML CSS sémantique léger en classe ). Scores parfait <a rel="noopener" target="_blank" href="https://pagespeed.web.dev/report?url=abridge.netlify.app">Lighthouse</a>, <a rel="noopener" target="_blank" href="https://yellowlab.tools/">YellowLabTools</a> et <a rel="noopener" target="_blank" href="https://observatory.mozilla.org/analyze/abridge.netlify.app">Observatory</a>. Voici une page <a rel="noopener" target="_blank" href="https://github.com/Jieiku/zola-themes-benchmarks/blob/main/README.md">Zola Themes Benchmarks</a>.</p>
+<span id="continue-reading"></span>
+<p><img src="https://rork-lab.github.io/site/fr/overview-abridge/lighthouse.png" alt="lighthouse" /></p>
+<h2 id="features">Features</h2>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Scores parfait <a rel="noopener" target="_blank" href="https://pagespeed.web.dev/report?url=abridge.netlify.app">Lighthouse</a>, <a rel="noopener" target="_blank" href="https://yellowlab.tools/">YellowLabTools</a> et <a rel="noopener" target="_blank" href="https://observatory.mozilla.org/analyze/abridge.netlify.app">Observatory</a></li>
+<li><input disabled="" type="checkbox" checked=""/>
+<a href="https://rork-lab.github.io/site/fr/overview-abridge/#pwa-application-web-progressive">Prise en charge des PWA</a> (Application Web progressive).</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Tout JavaScript peut être <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-abridge/#javascript-files">entièrement désactivé</a>.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Thèmes sombre, clair, automatique et Switcher. (les couleurs peuvent être personnalisées, variables CSS)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Code <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-code-blocks/">surlignage de la syntaxe</a>. (les couleurs peuvent être personnalisées, variables CSS)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Blocs de code numérotés avec <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-code-blocks/#toml">mise en évidence des lignes</a>.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Site entièrement hors ligne en utilisant la PWA <strong>ou</strong> en définissant <code>offline = true</code> dans <code>config.toml</code> (prise en charge complète de la recherche).</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Prise en charge multilingue.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Aide à la recherche. (elasticlunr, tinysearch, cigogne)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Suggestions de recherche touches de navigation, focus <code>/</code>, déplacement <code>flèche</code>, sélection <code>entrée</code>, fermeture <code>évasion</code>.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Page des résultats de recherche, tapez la requête de recherche, puis appuyez sur <code>Entrée</code> ou <code>cliquez</code> sur l'icône du bouton de recherche.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+<a href="https://rork-lab.github.io/site/fr/overview-abridge/#seo-et-balises-d-en-tete">SEO</a> soutien. (Optimisation du moteur de recherche)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+<a href="https://rork-lab.github.io/site/fr/overview-abridge/#pagination">Pagination</a> avec paginateur numéroté sur index.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Liens vers les articles précédents et suivants basés sur le titre au bas de l'article.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Table des matières dans la page Index (liens facultatifs cliquables)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Blocage des messages récents. (Facultatif)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Bouton Retour en haut. (utilise uniquement CSS)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Bouton de copie des blocs de code.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Lien d’e-mail dans l’obscurcissement du pied de page. (anti-spam)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+<a rel="noopener" target="_blank" href="https://katex.org/">KaTeX</a> soutien.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+<a rel="noopener" target="_blank" href="https://abridge.netlify.app/archive/">Page d'archives</a>.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+<a rel="noopener" target="_blank" href="https://abridge.netlify.app/tags/">Mots clés</a>.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Catégories. (similaire aux Tags, désactivés/commentés par défaut)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Liens vers les icônes sociales dans le pied de page.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Conception réactive. (mobile d'abord)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Vidéo Shortcodes: <a rel="noopener" target="_blank" href="https://abridge.netlify.app/video-streaming-sites/overview-embed-youtube/">Youtube</a>, <a rel="noopener" target="_blank" href="https://abridge.netlify.app/video-streaming-sites/overview-embed-vimeo/">Vimeo</a>, <a rel="noopener" target="_blank" href="https://abridge.netlify.app/video-streaming-sites/overview-embed-streamable/">Streamable</a>.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Médias Shortcodes: <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-rich-content/#video">video</a>, <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-images/#img-shortcode">img</a>, <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-images/#imgswap-shortcode">imgswap</a>, <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-rich-content/#image">image</a>, <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-rich-content/#gif">gif</a>, <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-rich-content/#audio">audio</a>.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Autre Shortcodes: <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-showdata/">showdata</a>, <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-math/#usage-1">katex</a>.</li>
+</ul>
+<h2 id="demarrage-rapide">Démarrage rapide</h2>
+<p>Ce thème nécessite une version 
+    
+  0.18.0
+ ou plus tard de <a rel="noopener" target="_blank" href="https://www.getzola.org/documentation/getting-started/installation/">Zola</a></p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">git</span></span><span class="z-meta z-function-call z-arguments z-shell"> clone https://github.com/jieiku/abridge.git</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-support z-function z-cd z-shell">cd</span></span><span class="z-meta z-function-call z-arguments z-shell"> abridge</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">zola</span></span><span class="z-meta z-function-call z-arguments z-shell"> serve</span>
+</span><span class="z-source z-shell z-bash"><span class="z-comment z-line z-number-sign z-shell"><span class="z-punctuation z-definition z-comment z-begin z-shell">#</span></span><span class="z-comment z-line z-number-sign z-shell"> open http://127.0.0.1:1111/ in the browser</span><span class="z-comment z-line z-number-sign z-shell">
+</span></span></code></pre>
+<h2 id="installation">Installation</h2>
+<p>Le démarrage rapide montre comment exécuter le thème directement. Ensuite, nous utiliserons abridge comme thème pour un NOUVEAU site.</p>
+<h3 id="1-creer-un-nouveau-site-zola">1: Créer un nouveau site zola</h3>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">zola</span></span><span class="z-meta z-function-call z-arguments z-shell"> init mysite</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-support z-function z-cd z-shell">cd</span></span><span class="z-meta z-function-call z-arguments z-shell"> mysite</span>
+</span></code></pre>
+<h3 id="2-installer-abridge">2: Installer abridge</h3>
+<p>Ajoutez le thème en tant que sous-module git :</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">git</span></span><span class="z-meta z-function-call z-arguments z-shell"> init  <span class="z-comment z-line z-number-sign z-shell"><span class="z-punctuation z-definition z-comment z-begin z-shell">#</span></span><span class="z-comment z-line z-number-sign z-shell"> si votre projet est déjà un dépôt git, ignorez cette commande</span><span class="z-comment z-line z-number-sign z-shell">
+</span></span></span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">git</span></span><span class="z-meta z-function-call z-arguments z-shell"> submodule add https://github.com/jieiku/abridge.git themes/abridge</span>
+</span></code></pre>
+<p>Ou clonez le thème dans votre répertoire de thèmes:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">git</span></span><span class="z-meta z-function-call z-arguments z-shell"> clone https://github.com/jieiku/abridge.git themes/abridge</span>
+</span></code></pre>
+<h3 id="3-configuration">3: Configuration</h3>
+<p>Copiez certains fichiers du répertoire du thème vers le répertoire racine de votre projet:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">touch</span></span><span class="z-meta z-function-call z-arguments z-shell"> templates/.gitkeep</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rsync</span></span><span class="z-meta z-function-call z-arguments z-shell"> themes/abridge/config.toml config.toml</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rsync</span></span><span class="z-meta z-function-call z-arguments z-shell"> themes/abridge/content/_index.md content/</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rsync</span></span><span class="z-meta z-function-call z-arguments z-shell"> themes/abridge/COPY-TO-ROOT-SASS/<span class="z-keyword z-operator z-regexp z-quantifier z-shell">*</span> sass/</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rsync</span></span><span class="z-meta z-function-call z-arguments z-shell"> themes/abridge/netlify.toml netlify.toml</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rsync</span></span><span class="z-meta z-function-call z-arguments z-shell"> themes/abridge/package_abridge.js package_abridge.js</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rsync</span></span><span class="z-meta z-function-call z-arguments z-shell"> themes/abridge/package.json package.json</span>
+</span></code></pre>
+<ul>
+<li><code>templates/.gitkeep</code> le répertoire des modèles est requis dans votre site de base. <a rel="noopener" target="_blank" href="https://github.com/getzola/zola/issues/2150">#2150</a></li>
+<li><code>config.toml</code> configuration de base avec toutes les valeurs de configuration.</li>
+<li><code>content/_index.md</code> requis pour définir la pagination.</li>
+<li><code>COPY-TO-ROOT-SASS/abridge.scss</code> remplace pour personnaliser les variables Abridge.</li>
+<li><code>netlify.toml</code> paramètres pour déployer votre dépôt avec netlify</li>
+<li><code>package_abridge.js</code> script de nœud pour: mettre à jour la liste des fichiers de cache dans PWA, réduire js, regrouper js</li>
+<li><code>package.json</code> pour basculer entre nosearch, elasticlunr, tinysearch, stork.</li>
+</ul>
+<p>Décommentez la ligne de thème dans le fichier racine config.toml de votre projet:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">sed</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>i</span> <span class="z-string z-quoted z-single z-shell"><span class="z-punctuation z-definition z-string z-begin z-shell">&#39;</span>s/^#theme = &quot;abridge&quot;/theme = &quot;abridge&quot;/<span class="z-punctuation z-definition z-string z-end z-shell">&#39;</span></span> config.toml</span>
+</span></code></pre>
+<h3 id="4-ajouter-du-nouveau-contenu">4: Ajouter du nouveau contenu</h3>
+<p>Copiez le contenu du répertoire du thème dans votre projet ou créez un nouveau message:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rsync</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>r</span> themes/abridge/content .</span>
+</span></code></pre>
+<h3 id="5-executer-le-projet">5: Exécuter le projet</h3>
+<p>Exécutez simplement <code>zola serve</code> dans le chemin racine du projet:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">zola</span></span><span class="z-meta z-function-call z-arguments z-shell"> serve</span>
+</span></code></pre>
+<p>Zola démarrera le serveur web de développement, accessible par défaut à <code>http://127.0.0.1:1111</code>.</p>
+<p>Les modifications enregistrées seront rechargées en direct dans le navigateur. (appuyez sur <code>ctrl+f5</code>, ou pendant le développement, définissez <code>pwa=false</code> dans <code>config.toml</code>)</p>
+<h2 id="pagination">Pagination</h2>
+<p>Vous pouvez définir le nombre d'éléments de la page d'accueil en éditant le fichier <code>content\_index.md</code> et en ajustant <code>paginate_by</code></p>
+<h2 id="remplacements-sass">Remplacements Sass</h2>
+<p>Les variables Abridge SASS peuvent être remplacées en éditant le fichier <code>sass\abridge.scss</code> dans le dossier sass racine de votre projet.</p>
+<h3 id="largeur-de-page">Largeur de page</h3>
+<pre data-lang="scss" class="language-scss z-code"><code class="language-scss" data-lang="scss"><span class="z-source z-scss"><span class="z-variable z-declaration z-sass"><span class="z-punctuation z-definition z-variable z-sass">$</span>mw</span><span class="z-punctuation z-separator z-key-value z-css">:</span><span class="z-meta z-property-value z-css"><span class="z-constant z-numeric z-integer z-decimal z-css">75<span class="z-keyword z-other z-unit z-css">%</span></span><span class="z-punctuation z-separator z-css">,</span><span class="z-comment z-line z-double-slash z-sass"><span class="z-punctuation z-definition z-comment z-css">//</span> largeur maximale
+</span></span></span></code></pre>
+<h3 id="modes-thematiques-abreges">Modes thématiques abrégés</h3>
+<pre data-lang="scss" class="language-scss z-code"><code class="language-scss" data-lang="scss"><span class="z-source z-scss"><span class="z-variable z-declaration z-sass"><span class="z-punctuation z-definition z-variable z-sass">$</span>abridgeMode</span><span class="z-punctuation z-separator z-key-value z-css">:</span><span class="z-meta z-property-value z-css"> <span class="z-string z-quoted z-double z-css"><span class="z-punctuation z-definition z-string z-begin z-css">&quot;</span>switcher<span class="z-punctuation z-definition z-string z-end z-css">&quot;</span></span><span class="z-punctuation z-separator z-css">,</span><span class="z-comment z-line z-double-slash z-sass"><span class="z-punctuation z-definition z-comment z-css">//</span>valeurs valides: switcher, auto, dark, light
+</span></span></span></code></pre>
+<ul>
+<li>switcher: affiche automatiquement une version sombre ou claire en fonction des paramètres du navigateur/système d'exploitation et dispose d'un sélecteur de thème javascript cliquable par l'utilisateur.</li>
+<li>auto: affiche automatiquement une version sombre ou claire en fonction des paramètres du navigateur/système d'exploitation.</li>
+<li>dark: est toujours le thème sombre.</li>
+<li>light: est toujours le thème de la lumière.</li>
+</ul>
+<h3 id="couleurs-et-styles">Couleurs et styles</h3>
+<p>Vous pouvez spécifier le modèle de couleur que vous souhaitez utiliser comme base:</p>
+<pre data-lang="scss" class="language-scss z-code"><code class="language-scss" data-lang="scss"><span class="z-source z-scss"><span class="z-variable z-declaration z-sass"><span class="z-punctuation z-definition z-variable z-sass">$</span>color</span><span class="z-punctuation z-separator z-key-value z-css">:</span><span class="z-meta z-property-value z-css"> <span class="z-string z-quoted z-double z-css"><span class="z-punctuation z-definition z-string z-begin z-css">&quot;</span>orange<span class="z-punctuation z-definition z-string z-end z-css">&quot;</span></span><span class="z-punctuation z-separator z-css">,</span><span class="z-comment z-line z-double-slash z-sass"><span class="z-punctuation z-definition z-comment z-css">//</span> modèle de couleur à utiliser/remplacer: orange, blue, blueshade
+</span></span></span></code></pre>
+<p>Remplacez ensuite les couleurs individuelles si nécessaire:</p>
+<pre data-lang="scss" class="language-scss z-code"><code class="language-scss" data-lang="scss"><span class="z-source z-scss"><span class="z-comment z-line z-double-slash z-sass"><span class="z-punctuation z-definition z-comment z-css">//</span>/ Couleurs sombres
+</span></span><span class="z-source z-scss"><span class="z-variable z-declaration z-sass"><span class="z-punctuation z-definition z-variable z-sass">$</span>f1d</span><span class="z-punctuation z-separator z-key-value z-css">:</span><span class="z-meta z-property-value z-css"> <span class="z-constant z-other z-color z-rgb-value z-css"><span class="z-punctuation z-definition z-constant z-css">#</span>ccc</span><span class="z-punctuation z-separator z-css">,</span><span class="z-comment z-line z-double-slash z-sass"><span class="z-punctuation z-definition z-comment z-css">//</span> Couleur de police principale
+</span></span></span><span class="z-source z-scss"><span class="z-meta z-property-value z-css"><span class="z-variable z-other z-sass"><span class="z-punctuation z-definition z-variable z-sass">$</span>f2d</span>: <span class="z-constant z-other z-color z-rgb-value z-css"><span class="z-punctuation z-definition z-constant z-css">#</span>ddd</span><span class="z-punctuation z-separator z-css">,</span><span class="z-comment z-line z-double-slash z-sass"><span class="z-punctuation z-definition z-comment z-css">//</span> En-têtes de couleur de police
+</span></span></span><span class="z-source z-scss"><span class="z-meta z-property-value z-css"><span class="z-variable z-other z-sass"><span class="z-punctuation z-definition z-variable z-sass">$</span>c1d</span>: <span class="z-constant z-other z-color z-rgb-value z-css"><span class="z-punctuation z-definition z-constant z-css">#</span>111</span><span class="z-punctuation z-separator z-css">,</span><span class="z-comment z-line z-double-slash z-sass"><span class="z-punctuation z-definition z-comment z-css">//</span> Couleur d&#39;arrière-plan primaire
+</span></span></span><span class="z-source z-scss"><span class="z-meta z-property-value z-css"><span class="z-variable z-other z-sass"><span class="z-punctuation z-definition z-variable z-sass">$</span>c2d</span>: <span class="z-constant z-other z-color z-rgb-value z-css"><span class="z-punctuation z-definition z-constant z-css">#</span>222</span><span class="z-punctuation z-separator z-css">,</span><span class="z-comment z-line z-double-slash z-sass"><span class="z-punctuation z-definition z-comment z-css">//</span> Couleur d&#39;arrière-plan secondaire
+</span></span></span><span class="z-source z-scss"><span class="z-meta z-property-value z-css">...
+</span></span></code></pre>
+<h3 id="icones-sociales-de-pied-de-page">Icônes sociales de pied de page</h3>
+<p>Vous devez configurer les icônes sociales que vous envisagez d'utiliser. (rend la taille du fichier CSS plus petite)</p>
+<p>Pour simplement les désactiver tous, vous pouvez définir <code>$enable-icons: false</code> (désactive TOUTES les icônes, la navigation, la recherche, etc.)</p>
+<p>Sinon, activez uniquement les icônes dont vous avez besoin, par exemple pour le courrier que vous définiriez <code>$icon-mail: true</code></p>
+<p>Vous devez ensuite désactiver toutes les autres icônes que vous n'utilisez pas.</p>
+<h3 id="theme-des-visites-noscript">Thème des visites noscript</h3>
+<p>Si vous avez configuré Abridge pour utiliser le mode de commutation au lieu de auto/dark/light, alors votre site aura un bouton qui permettra au visiteur de basculer le thème.</p>
+<p>Si votre visiteur utilise noscript ou un autre module complémentaire de navigateur bloquant Javascript, il sera alors bloqué avec le thème par défaut configuré pour le mode de commutation.</p>
+<p>Pour ajuster ce mode, vous devez définir les deux valeurs de configuration suivantes dans <code>abridge.scss</code> <strong>ET</strong> <code>config.toml</code>:</p>
+<pre data-lang="scss" class="language-scss z-code"><code class="language-scss" data-lang="scss"><span class="z-source z-scss"><span class="z-variable z-declaration z-sass"><span class="z-punctuation z-definition z-variable z-sass">$</span>switcherDefault</span><span class="z-punctuation z-separator z-key-value z-css">:</span><span class="z-meta z-property-value z-css"> <span class="z-string z-quoted z-double z-css"><span class="z-punctuation z-definition z-string z-begin z-css">&quot;</span>dark<span class="z-punctuation z-definition z-string z-end z-css">&quot;</span></span><span class="z-punctuation z-separator z-css">,</span><span class="z-comment z-line z-double-slash z-sass"><span class="z-punctuation z-definition z-comment z-css">//</span> mode de commutation nojs par défaut: dark, light (assurez-vous de définir également js_switcher_default dans config.toml)
+</span></span></span></code></pre>
+<pre data-lang="toml" class="language-toml z-code"><code class="language-toml" data-lang="toml"><span class="z-source z-toml"><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">js_switcher_default</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>dark<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span> <span class="z-comment z-line z-number-sign z-toml"><span class="z-punctuation z-definition z-comment z-toml">#</span> mode de commutation nojs par défaut: dark, light (assurez-vous de définir également $switcherDefault dans abridge.scss)</span>
+</span></code></pre>
+<p>Par défaut, abridge utilise le mode sombre pour le sélecteur, donc à moins que vous ne souhaitiez définir le mode par défaut sur clair pour les visiteurs nojs/noscript, vous n'avez pas à vous soucier de ces paramètres.</p>
+<h2 id="config-toml-configuration">Config.toml Configuration</h2>
+<p>La plupart des options de <code>config.toml</code> sont auto-documentées. (évident entre le nom de la valeur de configuration et les commentaires)</p>
+<p>Abridge fonctionnera avec un <code>config.toml</code> barebones car les valeurs par défaut sont fournies dans les fichiers modèles.</p>
+<p>Je recommande de copier l'intégralité du fichier config.toml comme indiqué à l'étape 3 car il fournit toutes les valeurs configurables.</p>
+<h3 id="menus-du-haut-et-du-pied-de-page">Menus du haut et du pied de page</h3>
+<p>Définissez un champ dans <code>extra</code> avec une clé de <code>menu</code> et <code>menu_footer</code>.
+Si vous souhaitez que le lien s'ouvre dans un nouvel onglet/navigateur, définissez <code>blank = true</code>.
+taille : s150, s140, s130, s120, s110, s95, s90, s85, s80, s75, s70, faux (pleine taille)
+Si un lien doit avoir une barre oblique à la fin de l'URL définie <code>slash = true</code>.
+(généralement, tous les liens doivent avoir une barre oblique finale, sauf s'il s'agit d'un lien de fichier tel que <code>sitemap.xml</code>)</p>
+<pre data-lang="toml" class="language-toml z-code"><code class="language-toml" data-lang="toml"><span class="z-source z-toml"><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">menu</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-punctuation z-definition z-array z-begin z-toml">[</span>
+</span><span class="z-source z-toml">  <span class="z-punctuation z-definition z-inline-table z-begin z-toml">{</span><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">url</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>about<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">name</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>About<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">slash</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">true</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">blank</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">size</span></span><span class="z-punctuation z-definition z-key-value z-toml">=</span><span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>s110<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-definition z-inline-table z-end z-toml">}</span><span class="z-punctuation z-separator z-array z-toml">,</span>
+</span><span class="z-source z-toml">  <span class="z-punctuation z-definition z-inline-table z-begin z-toml">{</span><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">url</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>posts<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">name</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>Posts<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">slash</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">true</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">blank</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">size</span></span><span class="z-punctuation z-definition z-key-value z-toml">=</span><span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>s110<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-definition z-inline-table z-end z-toml">}</span><span class="z-punctuation z-separator z-array z-toml">,</span>
+</span><span class="z-source z-toml">  <span class="z-punctuation z-definition z-inline-table z-begin z-toml">{</span><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">url</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>categories<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">name</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>Categories<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">slash</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">true</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">blank</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">size</span></span><span class="z-punctuation z-definition z-key-value z-toml">=</span><span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>s110<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-definition z-inline-table z-end z-toml">}</span><span class="z-punctuation z-separator z-array z-toml">,</span>
+</span><span class="z-source z-toml">  <span class="z-punctuation z-definition z-inline-table z-begin z-toml">{</span><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">url</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>tags<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">name</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>Tags<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">slash</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">true</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">blank</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">size</span></span><span class="z-punctuation z-definition z-key-value z-toml">=</span><span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>s110<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-definition z-inline-table z-end z-toml">}</span><span class="z-punctuation z-separator z-array z-toml">,</span>
+</span><span class="z-source z-toml"><span class="z-punctuation z-definition z-array z-end z-toml">]</span>
+</span><span class="z-source z-toml"><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">menu_footer</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-punctuation z-definition z-array z-begin z-toml">[</span>
+</span><span class="z-source z-toml">  <span class="z-punctuation z-definition z-inline-table z-begin z-toml">{</span><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">url</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>about<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">name</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>About<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">slash</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">true</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">blank</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span><span class="z-punctuation z-definition z-inline-table z-end z-toml">}</span><span class="z-punctuation z-separator z-array z-toml">,</span>
+</span><span class="z-source z-toml">  <span class="z-punctuation z-definition z-inline-table z-begin z-toml">{</span><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">url</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>contact<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">name</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>Contact<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">slash</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">true</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">blank</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span><span class="z-punctuation z-definition z-inline-table z-end z-toml">}</span><span class="z-punctuation z-separator z-array z-toml">,</span>
+</span><span class="z-source z-toml">  <span class="z-punctuation z-definition z-inline-table z-begin z-toml">{</span><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">url</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>privacy<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">name</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>Privacy<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">slash</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">true</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">blank</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span><span class="z-punctuation z-definition z-inline-table z-end z-toml">}</span><span class="z-punctuation z-separator z-array z-toml">,</span>
+</span><span class="z-source z-toml">  <span class="z-punctuation z-definition z-inline-table z-begin z-toml">{</span><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">url</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>sitemap.xml<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">name</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-string z-quoted z-double z-basic z-toml"><span class="z-punctuation z-definition z-string z-begin z-toml">&quot;</span>Sitemap<span class="z-punctuation z-definition z-string z-end z-toml">&quot;</span></span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">slash</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span><span class="z-punctuation z-separator z-inline-table z-toml">,</span> <span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">blank</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">true</span><span class="z-punctuation z-definition z-inline-table z-end z-toml">}</span><span class="z-punctuation z-separator z-array z-toml">,</span>
+</span><span class="z-source z-toml"><span class="z-punctuation z-definition z-array z-end z-toml">]</span>
+</span></code></pre>
+<h3 id="seo-et-balises-d-en-tete">SEO et balises d’en-tête</h3>
+<p>Vous pouvez consulter les balises SEO dans la macro SEO située dans <code>templates/macros/seo.html</code>, toutes les valeurs configurables doivent être dans <code>config.toml</code> sous <code>config.extra</code> ou dans les fichiers de démarque de contenu.</p>
+<p>Dans votre fichier de démarque, vous devez définir un titre de moins de 60 caractères et une description entre 80 et 160 caractères. La description est ce qui est affiché dans les résultats de recherche sous le titre de la page. Partout où vous ne définissez pas de description de page, le fichier config.description du site principal sera utilisé à la place.</p>
+<p>Vous devez également définir des mots-clés spécifiques à la page, à moins que vos mots-clés définis dans config.toml suffisent, tous les mots-clés que vous ajoutez à la page s'ajoutent à ceux définis dans config.toml, n'ajoutez donc pas ces mêmes mots-clés aux mots-clés de votre page.</p>
+<p>Vous pouvez éventuellement également définir une image spécifique à la page pour les résultats de recherche en utilisant page.extra.thumbnail. Les cartes Facebook, Twitter et OpenGraph sont prises en charge (image et description automatiques pour les liens publiés). OpenGraph recommande 1200 x 630 (1,9:1). Twitter recommande 2:1 pour les grands et 1:1 pour les petits. Si vous ne définissez pas de miniature spécifique à la page, la bannière définie dans config.toml sera utilisée à la place.</p>
+<p>Faire référence à <a rel="noopener" target="_blank" href="https://raw.githubusercontent.com/Jieiku/abridge/master/content/overview-images/index.md">overview-images</a> à titre d'exemple:</p>
+<pre data-lang="md" class="language-md z-code"><code class="language-md" data-lang="md"><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">+++
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">title = &quot;Codes courts d&#39;image&quot;
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">description = &quot;Les images peuvent être intégrées directement à l&#39;aide de markdown <span class="z-markup z-raw z-inline z-markdown"><span class="z-punctuation z-definition z-raw z-begin z-markdown">`</span>![Ferris](ferris.svg)<span class="z-punctuation z-definition z-raw z-end z-markdown">`</span></span>, mais l&#39;utilisation d&#39;un shortcode empêche CLS en définissant explicitement la largeur et la hauteur.&quot;
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">date = 2021-05-19
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">draft = false
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">[taxonomies]
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">tags = [&quot;Features&quot;,&quot;Shortcodes&quot;,&quot;Images&quot;]
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">[extra]
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">toc = true
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">keywords = &quot;Image, Markdown, Shortcodes, Swap&quot;
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">thumbnail = &quot;ferris-gesture.png&quot;
+</span></span><span class="z-text z-html z-markdown"><span class="z-meta z-paragraph z-markdown">+++
+</span></span></code></pre>
+<h3 id="notation-mathematique-katex">Notation mathématique KaTeX</h3>
+<p>KaTeX peut être utilisé pour afficher des mathématiques complexes, il s'agit d'une « composition mathématique rapide pour le Web ».</p>
+<p>Vous pouvez voir une démo sur <a rel="noopener" target="_blank" href="https://abridge.netlify.app/overview-math/">cette page</a>.</p>
+<p>Pour de meilleures performances, je recommande d'activer uniquement les mathématiques sur une <a rel="noopener" target="_blank" href="https://github.com/Jieiku/abridge/blob/master/content/overview-math.md?plain=1#L11-L13">base par page dans vos fichiers post.md</a>, au lieu de dans votre fichier config.toml principal.</p>
+<h3 id="pwa-application-web-progressive">PWA, application Web progressive</h3>
+<p>Le thème Abridge prend en charge PWA. Vous pouvez installer l’intégralité du site en tant qu’application et le faire fonctionner hors ligne. Pour l'essayer, utilisez simplement Google Chrome ou votre téléphone et allez ici: <a rel="noopener" target="_blank" href="https://abridge.netlify.app/">abridge.netlify.app</a></p>
+<p>Si vous utilisez Chrome sur un ordinateur de bureau, regardez à la fin de la barre d'adresse le bouton d'installation. Sur Android, vous devriez obtenir une fenêtre contextuelle à installer, vous pouvez également installer à partir du menu à 3 points dans le coin supérieur droit. Une fois la PWA installée, vous pouvez vous déconnecter complètement et vous pourrez toujours parcourir ou rechercher sur le site!</p>
+<p>Pour l'utiliser dans votre propre instance, vous devrez éditer <code>static/sw.js</code> pour la liste des fichiers à mettre en cache. Techniquement, vous n'avez pas besoin de modifier <code>sw.js</code>, mais si même un seul fichier est manquant dans la liste de cache, la liste ne sera pas pré-mise en cache, elle ne sera donc mise en cache que pendant votre navigation.</p>
+<p>Il existe un script npm pour générer la liste de cache de fichiers et la minification <code>npm run abridge</code>. Mon fichier <code>netlify.toml</code> exécute automatiquement ce script npm lors du déploiement du site, donc tout est automatique. Si Zola était capable de modéliser un fichier js, il serait peut-être possible de générer dynamiquement la liste des fichiers cache lors de la construction.</p>
+<p>La fonctionnalité PWA est également facile à désactiver en définissant simplement <code>pwa = false</code> dans <code>config.toml</code></p>
+<h2 id="optimisation-des-performances">Optimisation des performances</h2>
+<h3 id="fichiers-javascript">Fichiers Javascript</h3>
+<p>Tout javascript peut être désactivé dans <code>config.toml</code>:</p>
+<pre data-lang="toml" class="language-toml z-code"><code class="language-toml" data-lang="toml"><span class="z-source z-toml"><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">build_search_index</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span>
+</span><span class="z-source z-toml">
+</span><span class="z-source z-toml"><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">js_bundle</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span>
+</span><span class="z-source z-toml"><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">js_copycode</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span>
+</span><span class="z-source z-toml"><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">js_email_encode</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span>
+</span><span class="z-source z-toml"><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">js_prestyle</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span>
+</span><span class="z-source z-toml"><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">js_switcher</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span>
+</span><span class="z-source z-toml">
+</span><span class="z-source z-toml"><span class="z-meta z-tag z-key z-toml"><span class="z-entity z-name z-tag z-toml">pwa</span></span> <span class="z-punctuation z-definition z-key-value z-toml">=</span> <span class="z-constant z-language z-toml">false</span>
+</span></code></pre>
+<p>Voici les fichiers javascript utilisés par Abridge :</p>
+<ul>
+<li>search_index.en.js: index de recherche généré par zola à chaque build pour elasticlunr.</li>
+<li>elasticlunr.min.js: bibliothèque de recherche pour la recherche côté client.</li>
+<li>search.js: pour utiliser elasticlunr depuis le champ de recherche de nos sites pour les suggestions et la page de résultats.</li>
+<li>email.js: utilise javascript pour masquer votre véritable adresse e-mail grâce à l'icône de courrier en bas de la page.</li>
+<li>codecopy.js: ajoutez un bouton Copier aux blocs de code, pour copier le contenu du bloc de code dans le presse-papiers.</li>
+<li>theme.js: petit script pour faciliter le stockage local du sélecteur de thème. (jamais groupé, toujours séparé)</li>
+<li>theme_button.js: petit script pour la fonction de changement de thème lorsque vous cliquez sur le bouton de changement de thème.</li>
+<li>prestyle.js: Utilisé pour précharger les fichiers CSS <code>&lt;link rel=&quot;preload&quot;</code> - ce script les change en <code>&lt;link rel=&quot;stylesheet&quot;</code> une fois le chargement de la page terminé, cela nous permet de charger des feuilles de style pour les polices externes , fontawesome ou katex de manière non bloquante.</li>
+<li>sw.js: il s'agit du fichier Service Worker pour la PWA.</li>
+<li>sw_load.js: ce fichier gère le chargement du Service Worker pour la PWA.</li>
+</ul>
+<h4 id="option-js-bundle">option js_bundle</h4>
+<p><code>js_bundle</code> lorsqu'il est défini sur true sert un fichier bundle au lieu de tous les fichiers js individuels.</p>
+<p>Tous les bundles nécessaires sont générés dynamiquement par le script de nœud <a rel="noopener" target="_blank" href="https://github.com/Jieiku/abridge/blob/master/package_abridge.js">package_abridge.js</a></p>
+<p>Le script de nœud analysera votre config.toml pour rechercher les valeurs de configuration pertinentes, puis, en fonction de votre config.tomnl, générera les bundles requis.</p>
+<p>Tout ce qui est nécessaire est <code>zola build &amp;&amp; npm run abridge</code>.</p>
+<h4 id="changer-de-bibliotheque-de-recherche">Changer de bibliothèque de recherche</h4>
+<p>En plus d'elasticlunr, abridge prend également en charge tinysearch et stork.</p>
+<p>tinysearch démo: https://jieiku.github.io/abridge-tinysearch/</p>
+<p>stork démo: https://jieiku.github.io/abridge-stork/</p>
+<p>Pour utiliser tinysearch/stork, des étapes supplémentaires sont nécessaires.</p>
+<p><strong>Basculer vers tinysearch:</strong></p>
+<p>Vous devez d’abord installer tinysearch pour pouvoir créer l’index:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">git</span></span><span class="z-meta z-function-call z-arguments z-shell"> clone https://github.com/tinysearch/tinysearch</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-support z-function z-cd z-shell">cd</span></span><span class="z-meta z-function-call z-arguments z-shell"> tinysearch</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">cargo</span></span><span class="z-meta z-function-call z-arguments z-shell"> build<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>release</span></span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">sudo</span></span><span class="z-meta z-function-call z-arguments z-shell"> cp ./target/release/tinysearch /usr/local/bin/tinysearch</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-support z-function z-exit z-shell">exit</span></span> <span class="z-comment z-line z-number-sign z-shell"><span class="z-punctuation z-definition z-comment z-begin z-shell">#</span></span><span class="z-comment z-line z-number-sign z-shell"> recharger l&#39;environnement shell</span><span class="z-comment z-line z-number-sign z-shell">
+</span></span></code></pre>
+<p>Basculer Abridge vers tinysearch:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">npm</span></span><span class="z-meta z-function-call z-arguments z-shell"> run tinysearch</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">zola</span></span><span class="z-meta z-function-call z-arguments z-shell"> build</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">tinysearch</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>optimize</span><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>path</span> static public/data_tinysearch/index.html</span>
+</span><span class="z-source z-shell z-bash"><span class="z-comment z-line z-number-sign z-shell"><span class="z-punctuation z-definition z-comment z-begin z-shell">#</span></span><span class="z-comment z-line z-number-sign z-shell"> zola serve</span><span class="z-comment z-line z-number-sign z-shell">
+</span></span></code></pre>
+<p><strong>Basculer vers stork:</strong></p>
+<p>Vous devez d’abord installer stork pour pouvoir construire l’index:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">git</span></span><span class="z-meta z-function-call z-arguments z-shell"> clone https://github.com/jameslittle230/stork</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-support z-function z-cd z-shell">cd</span></span><span class="z-meta z-function-call z-arguments z-shell"> stork</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">cargo</span></span><span class="z-meta z-function-call z-arguments z-shell"> build<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>release</span></span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">sudo</span></span><span class="z-meta z-function-call z-arguments z-shell"> cp ./target/release/stork /usr/local/bin/stork</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-support z-function z-exit z-shell">exit</span></span> <span class="z-comment z-line z-number-sign z-shell"><span class="z-punctuation z-definition z-comment z-begin z-shell">#</span></span><span class="z-comment z-line z-number-sign z-shell"> recharger l&#39;environnement shell</span><span class="z-comment z-line z-number-sign z-shell">
+</span></span></code></pre>
+<p>Remplacer Abréger par Cigogne:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">npm</span></span><span class="z-meta z-function-call z-arguments z-shell"> run stork</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">zola</span></span><span class="z-meta z-function-call z-arguments z-shell"> build</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">stork</span></span><span class="z-meta z-function-call z-arguments z-shell"> build<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>input</span> public/data_stork/index.html<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>output</span> static/stork.st</span>
+</span><span class="z-source z-shell z-bash"><span class="z-comment z-line z-number-sign z-shell"><span class="z-punctuation z-definition z-comment z-begin z-shell">#</span></span><span class="z-comment z-line z-number-sign z-shell"> zola serve</span><span class="z-comment z-line z-number-sign z-shell">
+</span></span></code></pre>
+<p><strong>Basculer vers elasticlunr:</strong></p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">npm</span></span><span class="z-meta z-function-call z-arguments z-shell"> run elasticlunr</span>
+</span></code></pre>
+<p><strong>Basculer vers nosearch:</strong></p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">npm</span></span><span class="z-meta z-function-call z-arguments z-shell"> run nosearch</span>
+</span></code></pre>
+<h4 id="changeur-de-theme">Changeur de thème</h4>
+<p>Le sélecteur de thème s'appuie sur javascript pour fonctionner, il applique la classe .light au documentElement racine. Le fichier qui gère cela (<code>theme.js</code>) est petit et optimisé et c'est le premier fichier chargé dans la tête, donc l'impact sur les performances est minime. Sans le sélecteur de thème, vous pouvez toujours utiliser le thème automatique qui utilise les paramètres de préférence du navigateur/système d'exploitation. Vous pouvez même installer un <a rel="noopener" target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/theme-switcher-for-firefox/">plugin Firefox</a> pour basculer rapidement entre les deux.</p>
+<h3 id="optimiser-les-fichiers-png-ico">Optimiser les fichiers PNG/ICO</h3>
+<p>Bon outil pour générer des icônes masquables pour <code>manifest.json</code>: <a rel="noopener" target="_blank" href="https://maskable.app/editor">maskable.app</a></p>
+<p>Tous les fichiers png peuvent être optimisés à l'aide de <a rel="noopener" target="_blank" href="https://github.com/shssoichiro/oxipng">oxipng</a>:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-support z-function z-cd z-shell">cd</span></span><span class="z-meta z-function-call z-arguments z-shell"> static</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">oxipng</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>o</span> max<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>strip</span> all<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>a</span><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>Z</span> <span class="z-keyword z-operator z-regexp z-quantifier z-shell">*</span>.png</span>
+</span></code></pre>
+<p>Avec des écrans plus grands et une plus grande densité de pixels devenant monnaie courante, c'est probablement une bonne idée d'utiliser au moins un peu de compression avec perte. Par exemple, vous pouvez utiliser pngquant avec une qualité de 93% et vous obtiendrez souvent des images environ la moitié de la taille. Comprenez que pngquant est cumulatif, vous devez donc conserver vos images originales quelque part et n'utiliser pngquant qu'une seule fois par image, si vous l'utilisez encore et encore sur la même image, vous réduirez la qualité de l'image à chaque fois. Utilisez toujours oxipng par la suite, l'oxipng est sans perte.</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">pngquant</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>skip-if-larger</span><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>strip</span><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>quality</span><span class="z-keyword z-operator z-assignment z-option z-shell">=</span>93-93<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>speed</span> 1 <span class="z-keyword z-operator z-regexp z-quantifier z-shell">*</span>.png</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">oxipng</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>o</span> max<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>strip</span> all<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>a</span><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>Z</span> <span class="z-keyword z-operator z-regexp z-quantifier z-shell">*</span>.png</span>
+</span></code></pre>
+<p>leanify peut compresser davantage pour les fichiers png et ico:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">git</span></span><span class="z-meta z-function-call z-arguments z-shell"> clone https://github.com/JayXon/Leanify</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-support z-function z-cd z-shell">cd</span></span><span class="z-meta z-function-call z-arguments z-shell"> Leanify</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">make</span></span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">sudo</span></span><span class="z-meta z-function-call z-arguments z-shell"> cp leanify /usr/local/bin/leanify</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-support z-function z-exit z-shell">exit</span></span>  <span class="z-comment z-line z-number-sign z-shell"><span class="z-punctuation z-definition z-comment z-begin z-shell">#</span></span><span class="z-comment z-line z-number-sign z-shell">lancer un nouveau terminal</span><span class="z-comment z-line z-number-sign z-shell">
+</span></span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">leanify</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>i</span> 7777 <span class="z-keyword z-operator z-regexp z-quantifier z-shell">*</span>.png</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">leanify</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>i</span> 7777 <span class="z-keyword z-operator z-regexp z-quantifier z-shell">*</span>.ico</span>
+</span></code></pre>
+<h3 id="contenu-pre-gzip-brotli">Contenu pré-gzip/brotli</h3>
+<p>Si vous diffusez votre site avec nginx, vous pouvez pré-gzipper votre contenu.</p>
+<p>(Netlify brotli compresse automatiquement vos fichiers, aucun travail supplémentaire n'est requis.)</p>
+<p>Configurez d’abord nginx:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">sudo</span></span><span class="z-meta z-function-call z-arguments z-shell"> nano /etc/nginx/nginx.conf</span>
+</span><span class="z-source z-shell z-bash">
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">gzip</span></span><span class="z-meta z-function-call z-arguments z-shell"> on</span><span class="z-keyword z-operator z-logical z-continue z-shell">;</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">gzip_vary</span></span><span class="z-meta z-function-call z-arguments z-shell"> on</span><span class="z-keyword z-operator z-logical z-continue z-shell">;</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">gzip_proxied</span></span><span class="z-meta z-function-call z-arguments z-shell"> expired no-cache no-store private auth</span><span class="z-keyword z-operator z-logical z-continue z-shell">;</span>
+</span><span class="z-source z-shell z-bash"><span class="z-comment z-line z-number-sign z-shell"><span class="z-punctuation z-definition z-comment z-begin z-shell">#</span></span><span class="z-comment z-line z-number-sign z-shell">gzip_proxied any;</span><span class="z-comment z-line z-number-sign z-shell">
+</span></span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">gzip_comp_level</span></span><span class="z-meta z-function-call z-arguments z-shell"> 9</span><span class="z-keyword z-operator z-logical z-continue z-shell">;</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">gzip_buffers</span></span><span class="z-meta z-function-call z-arguments z-shell"> 64 16k</span><span class="z-keyword z-operator z-logical z-continue z-shell">;</span>
+</span><span class="z-source z-shell z-bash"><span class="z-comment z-line z-number-sign z-shell"><span class="z-punctuation z-definition z-comment z-begin z-shell">#</span></span><span class="z-comment z-line z-number-sign z-shell">gzip_buffers 16 8k;</span><span class="z-comment z-line z-number-sign z-shell">
+</span></span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">gzip_http_version</span></span><span class="z-meta z-function-call z-arguments z-shell"> 1.1</span><span class="z-keyword z-operator z-logical z-continue z-shell">;</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">gzip_types</span></span><span class="z-meta z-function-call z-arguments z-shell"> text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript image/svg+xml application/xhtml+xml application/x-javascript application/x-font-ttf application/vnd.ms-fontobject font/opentype font/ttf font/eot font/otf</span><span class="z-keyword z-operator z-logical z-continue z-shell">;</span>
+</span><span class="z-source z-shell z-bash"><span class="z-comment z-line z-number-sign z-shell"><span class="z-punctuation z-definition z-comment z-begin z-shell">#</span></span><span class="z-comment z-line z-number-sign z-shell">gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;</span><span class="z-comment z-line z-number-sign z-shell">
+</span></span></code></pre>
+<p>Ensuite, vous pouvez gzip/brotli vos fichiers:</p>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">zola</span></span><span class="z-meta z-function-call z-arguments z-shell"> build</span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">find</span></span><span class="z-meta z-function-call z-arguments z-shell"> <span class="z-meta z-group z-expansion z-tilde"><span class="z-variable z-language z-tilde z-shell">~</span></span>/.dev/abridge/public<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>type</span> f<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>regextype</span> posix-extended<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>regex</span> <span class="z-string z-quoted z-single z-shell"><span class="z-punctuation z-definition z-string z-begin z-shell">&#39;</span>.*\.(htm|html|css|js|xml|xsl|txt|woff|woff2|svg|otf|eot|ttf)<span class="z-punctuation z-definition z-string z-end z-shell">&#39;</span></span><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>exec</span> gzip<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>best</span><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>k</span><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>f</span> <span class="z-meta z-group z-expansion z-brace z-shell"><span class="z-punctuation z-section z-expansion z-brace z-begin z-shell">{</span><span class="z-punctuation z-section z-expansion z-brace z-end z-shell">}</span></span> <span class="z-constant z-character z-escape z-shell">\+</span><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>exec</span> brotli<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>best</span><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>f</span> <span class="z-meta z-group z-expansion z-brace z-shell"><span class="z-punctuation z-section z-expansion z-brace z-begin z-shell">{</span><span class="z-punctuation z-section z-expansion z-brace z-end z-shell">}</span></span> <span class="z-constant z-character z-escape z-shell">\;</span></span>
+</span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rsync</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>zvrh</span> <span class="z-meta z-group z-expansion z-tilde"><span class="z-variable z-language z-tilde z-shell">~</span></span>/.dev/abridge/public/ web:/var/www/abridge</span>
+</span></code></pre>
+<p>Nginx n'est pas livré par défaut avec le support brotli, mais l'ajouter n'a pas été difficile.</p>
+
+      <nav>
+        <div>
+        </div>
+        <div>
+          <a href="https://rork-lab.github.io/site/fr/overview-code-blocks/"> Blocs de code et thème &#8250;</a>
+        </div>
+      </nav>
+    </article>
+
+    <div class="sblock">
+      <div class="blockdiv">
+        <a class="b s150" href="https://rork-lab.github.io/site/fr/tags/features/">Series</a>
+        <ol>
+
+          
+          
+      <li><a href="https://rork-lab.github.io/site/fr/overview-showdata/">Code court Showdata</a></li>
+
+          
+            <details>
+              <summary>More...</summary>
+            </details>
+            <div class="hidden_li">
+                <li><a href="https://rork-lab.github.io/site/fr/overview-math/">Notation mathématiques</a></li>
+                <li><a href="https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-streamable/">Streamable intégrées</a></li>
+                <li><a href="https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-vimeo/">Vimeo intégrées</a></li>
+                <li><a href="https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-youtube/">Youtube intégrées</a></li>
+                <li><a href="https://rork-lab.github.io/site/fr/overview-rich-content/">Contenu riche</a></li>
+                <li><a href="https://rork-lab.github.io/site/fr/overview-images/">Codes courts d&#x27;image</a></li>
+            </div>
+
+          
+
+          
+            <li><a href="https://rork-lab.github.io/site/fr/overview-markdown-and-style/">Markdown et Style</a></li>
+            <li><a href="https://rork-lab.github.io/site/fr/overview-code-blocks/">Blocs de code et thème</a></li>
+
+          
+
+          
+        
+      <li><a class="scur" href="https://rork-lab.github.io/site/fr/overview-abridge/">Abridge Zola Thème</a></li>
+    
+
+        
+        </ol>
+      </div>
+
+      <div class="blockdiv sticky">
+        <a class="b s150" href="#">Indice</a>
+        <div>
+          <a href="#features">Features</a>
+        </div>
+        <div>
+          <a href="#demarrage-rapide">Démarrage rapide</a>
+        </div>
+        <div>
+          <a href="#installation">Installation</a>
+        </div>
+        <div class="hpad">
+          <a href="#1-creer-un-nouveau-site-zola"><small>- 1: Créer un nouveau site zola</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#2-installer-abridge"><small>- 2: Installer abridge</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#3-configuration"><small>- 3: Configuration</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#4-ajouter-du-nouveau-contenu"><small>- 4: Ajouter du nouveau contenu</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#5-executer-le-projet"><small>- 5: Exécuter le projet</small></a>
+        </div>
+        <div>
+          <a href="#pagination">Pagination</a>
+        </div>
+        <div>
+          <a href="#remplacements-sass">Remplacements Sass</a>
+        </div>
+        <div class="hpad">
+          <a href="#largeur-de-page"><small>- Largeur de page</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#modes-thematiques-abreges"><small>- Modes thématiques abrégés</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#couleurs-et-styles"><small>- Couleurs et styles</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#icones-sociales-de-pied-de-page"><small>- Icônes sociales de pied de page</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#theme-des-visites-noscript"><small>- Thème des visites noscript</small></a>
+        </div>
+        <div>
+          <a href="#config-toml-configuration">Config.toml Configuration</a>
+        </div>
+        <div class="hpad">
+          <a href="#menus-du-haut-et-du-pied-de-page"><small>- Menus du haut et du pied de page</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#seo-et-balises-d-en-tete"><small>- SEO et balises d’en-tête</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#notation-mathematique-katex"><small>- Notation mathématique KaTeX</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#pwa-application-web-progressive"><small>- PWA, application Web progressive</small></a>
+        </div>
+        <div>
+          <a href="#optimisation-des-performances">Optimisation des performances</a>
+        </div>
+        <div class="hpad">
+          <a href="#fichiers-javascript"><small>- Fichiers Javascript</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#optimiser-les-fichiers-png-ico"><small>- Optimiser les fichiers PNG&#x2F;ICO</small></a>
+        </div>
+        <div class="hpad">
+          <a href="#contenu-pre-gzip-brotli"><small>- Contenu pré-gzip&#x2F;brotli</small></a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <hr />
+    <div class="c">
+      <nav><div><a type="application/atom+xml" href="https://rork-lab.github.io/site/fr/atom.xml" target="_blank" title="Abridge Atom/RSS Feed"><i type="Button" class="svg rss" title="Abridge Atom/RSS Feed"></i></a><a class="js m-protected" href="#bmFtZUBleGFtcGxlLmNvbQ==" target="_blank" title="Mail"><i type="Button" class="svg mail" title="Mail"></i></a><a href="@your-user-name" target="_blank" title="Mastodon" rel="me"><i type="Button" class="svg mastodon" title="Mastodon"></i></a><a href="https://matrix.example.com/" target="_blank" title="Element"><i type="Button" class="svg element" title="Element"></i></a><a href="https://twitter.com/your-user-name/" target="_blank" title="Twitter"><i type="Button" class="svg twitter" title="Twitter"></i></a><a href="https://www.facebook.com/your-user-name/" target="_blank" title="Facebook"><i type="Button" class="svg facebook" title="Facebook"></i></a><a href="https://www.linkedin.com/in/your-user-name/" target="_blank" title="LinkedIn"><i type="Button" class="svg linkedin" title="LinkedIn"></i></a><a href="https://www.researchgate.net/profile/your-profile-id/" target="_blank" title="ResearchGate"><i type="Button" class="svg researchgate" title="ResearchGate"></i></a><a href="https://codeberg.org/your-user-name/" target="_blank" title="Codeberg"><i type="Button" class="svg codeberg" title="Codeberg"></i></a><a href="https://github.com/your-user-name/" target="_blank" title="Github"><i type="Button" class="svg github" title="Github"></i></a><a href="https://stackoverflow.com/users/your-user-name/" target="_blank" title="Stack"><i type="Button" class="svg stack" title="Stack"></i></a><a href="https://www.instagram.com/your-user-name/" target="_blank" title="Instagram"><i type="Button" class="svg instagram" title="Instagram"></i></a><a href="https://www.twitch.tv/your-user-name/" target="_blank" title="Twitch"><i type="Button" class="svg twitch" title="Twitch"></i></a><a href="https://discord.com/your-discord/" target="_blank" title="Discord"><i type="Button" class="svg discord" title="Discord"></i></a><a href="https://www.youtube.com/channel&#x2F;your-channel-id" target="_blank" title="YouTube"><i type="Button" class="svg youtube" title="YouTube"></i></a><a href="https://www.ko-fi.com/your-user-name/" target="_blank" title="Support me on Ko-fi"><i type="Button" class="svg kofi" title="Support me on Ko-fi"></i></a><a href="https://www.buymeacoffee.com/your-user-name/" target="_blank" title="Buy Me A Coffee"><i type="Button" class="svg buymeacoffee" title="Buy Me A Coffee"></i></a><a href="https://github.com/sponsors/your-user-name/" target="_blank" title="GitHub Sponsor"><i type="Button" class="svg github-sponsor" title="GitHub Sponsor"></i></a></div></nav>
+          
+      <p class="s90"> © <span id="year">2024</span> Abridge • Le contenu du site Web est sous licence <a rel="noopener" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+      <nav>
+        <a class="s90" href="https://rork-lab.github.io/site/fr/about/"> Sur </a>
+        <a class="s90" href="https://rork-lab.github.io/site/fr/contact/"> Contact </a>
+        <a class="s90" href="https://rork-lab.github.io/site/fr/privacy/"> Confidentialité </a>
+        <a class="s90" href="https://rork-lab.github.io/site/sitemap.xml" target="_blank"> Plan du site </a>
+      </nav>
+      <p class="s90">Propulsé <a href="https://www.getzola.org/" target="_blank">Zola</a> et <a href="https://github.com/jieiku/abridge/" target="_blank">Abridge</a></p>
+    </div>
+  </footer><span class="topout">
+<span class="topleft"> </span><a href="#" class="top" title="Back to Top"><i class="svgs svgh angu"></i></a>
+</span>
+  
+  <script src="https://rork-lab.github.io/site/js/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1/dist/chart.xkcd.min.js" crossorigin="anonymous"></script>
+  
+
+</body>
+</html>

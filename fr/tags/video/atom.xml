@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title>Abridge - Video</title>
+    <subtitle>Abridge est un thème Zola rapide et léger utilisant le html sémantique, le CSS abridge.css class-light et aucun JS obligatoire.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://rork-lab.github.io/site/fr/tags/video/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://rork-lab.github.io/site"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-05-15T00:00:00+00:00</updated>
+    <id>https://rork-lab.github.io/site/fr/tags/video/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>Contenu riche</title>
+        <published>2021-05-15T00:00:00+00:00</published>
+        <updated>2021-05-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              rork
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://rork-lab.github.io/site/fr/overview-rich-content/"/>
+        <id>https://rork-lab.github.io/site/fr/overview-rich-content/</id>
+        
+        <summary type="html">&lt;p&gt;Plusieurs codes abrégés personnalisés sont inclus pour augmenter CommonMark (avec l&#x27;aimable autorisation du &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;d3c3nt.figbert.com&#x2F;posts&#x2F;rich-content&#x2F;&quot;&gt;theme d3c3nt&lt;&#x2F;a&gt;). &lt;code&gt;video&lt;&#x2F;code&gt;, &lt;code&gt;image&lt;&#x2F;code&gt;, &lt;code&gt;gif&lt;&#x2F;code&gt;, et &lt;code&gt;audio&lt;&#x2F;code&gt; ont été créés pour vous aider à tirer parti des éléments HTML modernes dans votre écriture.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Youtube intégrées</title>
+        <published>2021-05-08T00:00:00+00:00</published>
+        <updated>2021-05-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              rork
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-youtube/"/>
+        <id>https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-youtube/</id>
+        
+        <summary type="html">&lt;p&gt;Zola a de nombreux shortcodes, et de nouveaux sont facilement ajoutés, cet exemple montre youtube.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Vimeo intégrées</title>
+        <published>2021-05-07T00:00:00+00:00</published>
+        <updated>2021-05-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              rork
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-vimeo/"/>
+        <id>https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-vimeo/</id>
+        
+        <summary type="html">&lt;p&gt;Zola a de nombreux shortcodes, et de nouveaux sont facilement ajoutés, cet exemple montre vimeo.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Streamable intégrées</title>
+        <published>2021-05-06T00:00:00+00:00</published>
+        <updated>2021-05-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              rork
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-streamable/"/>
+        <id>https://rork-lab.github.io/site/fr/video-streaming-sites/overview-embed-streamable/</id>
+        
+        <summary type="html">&lt;p&gt;Zola a de nombreux shortcodes, et de nouveaux sont facilement ajoutés, cet exemple montre streamable.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
