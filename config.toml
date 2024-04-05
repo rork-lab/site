@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://rork-lab.github.io/path"
+base_url = "https://rork-lab.github.io/site"
 
 # Usable site directly from disk, Including Search: "/home/jieiku/.dev/abridge/public"
 # Also set index format = "elasticlunr_javascript", and in [extra] uglyurls = true, integrity = false
