@@ -96,11 +96,11 @@ include_title = true
 include_description = true
 # Whether to include the rendered content of the page/section in the index
 include_content = true
-# Whether to include the path of the page/section in the index
-#include_path = false
 # At which character to truncate the content to. Useful if you have a lot of pages and the index would
 # become too big to load on the site. Defaults to not being set.
 # truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
+# Whether to include the path of the page/section in the index
+#include_path = false
 
 # Configuration of the link checker.
 # [link_checker]
@@ -179,6 +179,8 @@ recent_items = 15
 series = true
 series_items = 9  # Max number of items to display in series list, use 0 to disable
 #Series_parts = "$NUMBER_OF_PARTS part Series"
+
+#arrow_pagination = true # If set to true then the pagination will use the old arrows mode, be sure to also enable the icons.
 
 meta_index = { position = "bottom", size = "s90", author = false, readtime = false, readstring = "min", date = true, updated = false, categories_tags = true, divider = "" }
 meta_post = { position = "top", size = "s95", author = true, readtime = false, readstring = "min read", date = true, updated = true, categories_tags = true, divider = "" }
@@ -467,7 +469,6 @@ favicon16 = "favicon-16x16.png"        # favicon-16x16.png
 #  {% endif %}
 
 vega_chart.enabled = false
+flashcard.enabled = false
 
 chart.enabled = true
-
-flashcard.enabled = true
