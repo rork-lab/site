@@ -5,8 +5,9 @@ base_url = "https://rork-lab.github.io/site"
 # Also set index format = "elasticlunr_javascript", and in [extra] uglyurls = true, integrity = false
 # If you use the npm/node script then all you have to do is set offline = true, and everything else is automatic.
 
-title = "Abridge"
-description = "Abridge is a fast and lightweight Zola theme using semantic html, abridge.css class-light CSS, and No Mandatory JS."
+title = "Rork-lab"
+# description = "Abridge is a fast and lightweight Zola theme using semantic html, abridge.css class-light CSS, and No Mandatory JS."
+description = ""
 
 # The default author for pages
 author = "rork"
@@ -72,6 +73,7 @@ highlight_code = true
 #highlight_theme = "base16-ocean-dark"
 #highlight_theme = "one-dark"
 highlight_theme = "css"
+bottom_footnotes = true # adds footnote backreference
 # When set to "true", emoji aliases translated to their corresponding
 # Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
 render_emoji = true
@@ -160,10 +162,10 @@ include_content = true
 ### divider:    " "        "&middot;"        "&bull;"
 ###############################################################################
 menu = [
-    #    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
+    { url = "blog", name = "Blog", slash = true, blank = false, size = "s110" },
     { url = "about", name = "About", slash = true, blank = false, size = "s110" },
     { url = "archive", name = "Posts", slash = true, blank = false, size = "s110" },
-    #    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
+    { url = "categories", name = "Categories", slash = true, blank = false, size = "s110" },
     { url = "tags", name = "Tags", slash = true, blank = false, size = "s110" },
 ]
 menu_footer = [
@@ -200,7 +202,7 @@ textlogo = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#f90" vi
 
 sitedesc = false # enables or disables the display of the site description below the logo.
 headhr = false   # show or hide horizontal rule below header
-foothr = true    # show or hide horizontal rule above footer
+foothr = false   # show or hide horizontal rule above footer
 
 ### $CURRENT_YEAR and $SITE_TITLE can be used anywhere within the copyright, you can change their position or you can also delete them and type whatever you want instead.
 #copyright = false # set to false to disable the copyright.
@@ -214,16 +216,16 @@ copyright_override = '© $CURRENT_YEAR $SITE_TITLE • Website content is licens
 ### To always set the page title exactly eg "Abridge" then comment out title_addition or set to false (not recommend, bad for SEO)
 ###############################################################################
 
-title_separator = "|"                                                                                 # Separator between title and title_addition, set as |, -, _, etc
-title_addition = "Fast & Lightweight Zola Theme"                                                      # a default value for title addition
-author = "Rork"                                                                                       # Put Your Name here
-keywords = "Abridge, Abridge.css, Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" # used for the primary site index
-banner = "banner.png"                                                                                 # Used as default image for OpenGraph/Twitter if page specific image is undefined.
-twitter_meta = "your-user-name"                                                                       # for SEO: twitter:site and twitter:creator
+title_separator = "|"                                                           # Separator between title and title_addition, set as |, -, _, etc
+title_addition = "Личный блог"                                                  # a default value for title addition
+author = "rork"                                                                 # Put Your Name here
+keywords = "Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" # used for the primary site index
+banner = "banner.png"                                                           # Used as default image for OpenGraph/Twitter if page specific image is undefined.
+twitter_meta = "your-user-name"                                                 # for SEO: twitter:site and twitter:creator
 google = "Your Google Site verification code."
-bing = "Your Bing Site verification code."
-seo = true                                                                                            # enable or disable seo-related meta tags: opengraph, facebook, twitter
-dev = true                                                                                            # development mode, if true then robots.txt should prevent search indexing.
+# bing = "Your Bing Site verification code."
+seo = true # enable or disable seo-related meta tags: opengraph, facebook, twitter
+dev = true # development mode, if true then robots.txt should prevent search indexing.
 
 #head_extra = '<meta name="analytics" content="my-analytics-id" /><meta name="advertising" content="my-advertising-id" />'
 
@@ -233,32 +235,40 @@ dev = true                                                                      
 ###   https://github.com/Jieiku/abridge/blob/master/templates/macros/social.html
 ###############################################################################
 
-feed = true                                         # this adds the RSS feed icon in the footer.
+feed = true # this adds the RSS feed icon in the footer.
+
 mail = "name@example.com"
+
 mastodon = "https://mastodon.example.com/@username"
-element = "matrix.example.com"
-buymeacoffee = "your-user-name"
-kofi = "your-user-name"
-discord = "your-discord"                            # Everything after https://discord.com/   eg: invite/my-server  *or*  servers/my-server-id
+# element = "matrix.example.com"
+discord = "your-discord"    # Everything after https://discord.com/   eg: invite/my-server  *or*  servers/my-server-id
+telegram = "your-user-name"
+
+# buymeacoffee = "your-user-name"
+# kofi = "your-user-name"
+# github_sponsor = "your-user-name"
+
 twitter = "your-user-name"
 facebook = "your-user-name"
+instagram = "your-user-name"
 linkedin = "your-user-name"
+#pinterest = "your-user-name"
+#pixelfed = "https://pixelfed.example.com/" # Heaviest icon, off by default
+
 #gitlab = "your-user-name"
 github = "your-user-name"
-#codeberg = "your-user-name" # Everything after https://codeberg.org/   eg: username  *or*  username/repository
-github_sponsor = "your-user-name"
 #bitbucket = "your-user-name"
-python = "your-user-name"
+#codeberg = "your-user-name" # Everything after https://codeberg.org/   eg: username  *or*  username/repository
+
+#python = "your-user-name"
 docker = "your-user-name"
-#stack = "your-user-name"
-instagram = "your-user-name"
-#pixelfed = "https://pixelfed.example.com/" # Heaviest icon, off by default
-#pinterest = "your-user-name"
+# stack = "your-user-name" # stackoverflow
+
 twitch = "your-user-name"
 youtube = "channel/your-channel-id"
-peertube = "https://peertube.example.com/@username"
+#peertube = "https://peertube.example.com/@username"
+
 #researchgate = "your-profile-id"
-telegram = "your-user-name"
 
 
 ###############################################################################

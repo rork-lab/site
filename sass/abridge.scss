@@ -11,7 +11,7 @@
   $syntax-mode: "auto", // Force syntax mode: auto, dark, light
   $switcherDefault: "dark", // default nojs switcher mode: dark, light (make sure to also set js_switcher_default in config.toml)
 
-  $color: "orange", // color template to use/override: orange, blue, blueshade
+  $color: "blueshade", // color template to use/override: orange, blue, blueshade
 
   $color-syntax: "abridge", // syntax color template to use/override: abridge,
   $syntax: true, //syntax highlighting for Code Blocks.
@@ -21,31 +21,39 @@
 
   $icon-rss: true,
   $icon-mail: true, // e-mail
+
   $icon-mastodon: true,
-  $icon-element: true,
-  $icon-matrix: true,
-  $icon-buymeacoffee: true,
-  $icon-kofi: true,
+  $icon-telegram: true,
+  $icon-stack: false, // stackoverflow
+  $icon-element: false,
+  $icon-matrix: false,
+  $icon-discord: true,
+
+  $icon-buymeacoffee: false,
+  $icon-kofi: false,
+  $icon-github-sponsor: false,
+
   $icon-twitter: true,
   $icon-facebook: true,
   $icon-linkedin: true,
-  $icon-codeberg: true,
-  $icon-gitlab: true,
-  $icon-github: true,
-  $icon-github-sponsor: true,
-  $icon-bitbucket: true,
-  $icon-python: true,
-  $icon-docker: true,
-  $icon-stack: true,
   $icon-instagram: true,
-  $icon-pixelfed: true,
-  $icon-pinterest: true,
-  $icon-discord: true,
+  $icon-pixelfed: false,
+  $icon-pinterest: false,
+
+  $icon-codeberg: false,
+  $icon-gitlab: false,
+  $icon-github: true,
+  $icon-bitbucket: false,
+
+  $icon-python: false,
+  $icon-docker: true,
+
   $icon-twitch: true,
   $icon-youtube: true,
-  $icon-peertube: true,
-  $icon-researchgate: true,
-  $icon-telegram: true,
+  $icon-peertube: false,
+
+  $icon-researchgate: false,
+
 
   //$icon-x: true,// x symbol, used to close search results page.
   //$icon-search: true,//search, spyglass search button in search box.
