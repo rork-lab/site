@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Rork-lab - Images</title>
+    <link rel="self" type="application/atom+xml" href="https://rork-lab.github.io/site/tags/images/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://rork-lab.github.io/site"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-05-19T00:00:00+00:00</updated>
+    <id>https://rork-lab.github.io/site/tags/images/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Image Shortcodes</title>
+        <published>2021-05-19T00:00:00+00:00</published>
+        <updated>2021-05-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              rork
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://rork-lab.github.io/site/overview-images/"/>
+        <id>https://rork-lab.github.io/site/overview-images/</id>
+        
+        <summary type="html">&lt;p&gt;This post covers the &lt;strong&gt;imgswap and img shortcodes&lt;&#x2F;strong&gt;. Images can also be embedded directly using markdown &lt;code&gt;![Ferris](ferris.svg)&lt;&#x2F;code&gt;, but it is better to use a shortcode so you can explicitly set the width and height, this will help prevent content layout shift which improves user experience and the google lighthouse score.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Contenu riche</title>
+        <published>2021-05-15T00:00:00+00:00</published>
+        <updated>2021-05-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              rork
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://rork-lab.github.io/site/index-fr/"/>
+        <id>https://rork-lab.github.io/site/index-fr/</id>
+        
+        <summary type="html">&lt;p&gt;Plusieurs codes abrégés personnalisés sont inclus pour augmenter CommonMark. &lt;code&gt;video&lt;&#x2F;code&gt;, &lt;code&gt;image&lt;&#x2F;code&gt;, &lt;code&gt;gif&lt;&#x2F;code&gt;, et &lt;code&gt;audio&lt;&#x2F;code&gt; ont été créés pour vous aider à tirer parti des éléments HTML modernes dans votre écriture.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Rich Content</title>
+        <published>2021-05-15T00:00:00+00:00</published>
+        <updated>2021-05-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              rork
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://rork-lab.github.io/site/overview-rich-content/"/>
+        <id>https://rork-lab.github.io/site/overview-rich-content/</id>
+        
+        <summary type="html">&lt;p&gt;Several custom shortcodes are included to augment CommonMark. &lt;code&gt;video&lt;&#x2F;code&gt;, &lt;code&gt;image&lt;&#x2F;code&gt;, &lt;code&gt;gif&lt;&#x2F;code&gt;, and &lt;code&gt;audio&lt;&#x2F;code&gt; were created to help you take advantage of modern HTML elements in your writing.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
